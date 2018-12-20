@@ -120,6 +120,7 @@ confint(t.lm, level = 0.95) # exmine the lm plot's confidence intervals
 anova(t.lm)
 
 ??pearson
+# run Pearson test to attempt to determine effect size
 cor.test(x = t.2$Subsidy, y = t.2$Net.Revenue,
          alternative = c("two.sided"),
          method = c("pearson"),
